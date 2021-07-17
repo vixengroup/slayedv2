@@ -1,7 +1,7 @@
 <html>
 <head>
     <!--Add your title here-->
-    <title>Text Me - Powered by SuperPhone®</title>
+    <title>SLAYED | From the creators of BLACKED, TUSHY, VIXEN & DEEPER</title>
     
     <!--This code makes the website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +50,7 @@
     
                 // Send post to API
                 $.ajax({
-                    url: 'https://superphone.io/w/my-url', // Url where to submit the request
+                    url: 'https://superphone.io/w/9LnK2W', // Url where to submit the request
                     type: "POST",
                     beforeSend: function (request) {
                         request.setRequestHeader("Access-Control-Allow-Origin", "*");
@@ -87,12 +87,17 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url(https://lh3.googleusercontent.com/Is5hIngujbve49YXV_Cn33V7Dcv3HTZTIZ5WtRB0Mq6ShOc3tUUAhZXzAeKhBZ-HjRJuo8n6SE1SSSD7qKf0k_0vjsDgazNwptvCibyPMFhHWUE6BpKAgfL4dnCrPpqYAAIMs0GBJBw9eLHxLN8aBscxqPLhGVYFhU5DShYxW0D-zD9pY5r_hNL2U_Ky8suilPewTttxdi655WTXqk1Pr55IZ_O0aBqwOeNFpa7bhdQ_QpeKHctNayshE9jrRdhJiJhRxn95JBgiKA9zQWDL8VZ8TYYB4vIkhVQI1tV0s92uJm-EMRr79V1_bXlSonvXYo68pw1lLsCzq1C0bhASfjimbhF2u-JOP9Y1-ueIGWn-A45R2o8TXW3_WX_8wX1gXTOFpAHx-bknIdGdEiL-NmQHMqTfYnlz8bQSzBh3mUzTrtvbUNnZxhaW8vi3N_hIGq9SvHAIRdx3SuOnvFq52tZX2oONX0rwOlHP3Hg7SZGfpTdm3AjkiudnmjX_z1tYP04TnPMtT-i7Xkywr9g8UGQ4Pmh2QtdaFDKQ2Tvs5P6TLmFx9rZDVdRnYAQWuQtLqgc31s0pdtpSbTaMLl2q3qGk-tsKE3LwywsbnSS_T10wS_WFNgxZkDmYcnpYkf9RI2dlLPnMVYmYxJYsT3req8OtVazJKUNzmZaMIxu1BYKlqQSrkxjv9ofURcHX9WiQbcO8i_YNJ5W3jjfX94sIhqdU=w2858-h1906-no?authuser=0);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
         }
         
         *{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Helvetica', sans-serif;
         }    
 
+	    
     button#submitButton {
     text-transform: uppercase;
     margin: 15px 0px;
@@ -121,13 +126,13 @@
     color: white;
     border: 0px;
     border-bottom: 2px solid white;
-    background: black;
+    background: #00000030;
     padding: 26px 46px;
     font-size: 17px;
     border-radius: 0px;
-    font-weight: 700;
+    font-weight: 500;
         }
-        
+	    
     input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -191,11 +196,36 @@
 </head> 
     
     <!--This is the code for the actual page-->
- 
+    <body>
+    <div class="page-center">
+    <div class="custom-form">
+        <div class="container">
+		<center><img src="https://i.ibb.co/4JYByTQ/SLAYED-LOGO.png" width="350" height="94"/></center>
+            <p class="text-center" style="font-size: 14px">ALL GIRL EVERYTHING.<br><br><b>FROM THE CREATORS OF<br>VIXEN, BLACKED, TUSHY, DEEPER</b></p>
+            <form id="addContact" class="form-horizontal" style="min-width: 100%" method="POST" action="#" autocomplete="false" data-parsley-validate>
+                <div class="form-group">
+                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-4">
+                        <input autocomplete="off" tabindex="4" type="tel" class="form-control" id="phone" name="mobile"
+                                placeholder="Drop your # for more info" data-parsley-trigger="focusout"
+                                data-parsley-minlength="9" data-parsley-required>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-4">
+                        <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
     
+                <div class="form-group" style="padding-left: 12px">
+                    <div class="form-error container">
+                        <div class="buto">Something went wrong. Please check your mobile and try again.</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+	    	    
     <!--This is the text for the success page-->
     <div class="form-success">
-            <h1>Just texted you - please check your messages.</h1>
+            <h1>Just txt you. Go check your messages.</h1>
     </div>
     </div>
 </body>
